@@ -1,6 +1,6 @@
 {
-  "name": "random-verification-code",
-  "version": "1.0.3",
+  "name": "npm-react-template",
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -29,5 +29,7 @@
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
 }

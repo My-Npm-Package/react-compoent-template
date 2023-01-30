@@ -18,7 +18,7 @@ module.exports = {
     },
     module: {
         rules: [{
-            test: /\.js$|.jsx/,
+            test: /\.js$|.jsx|\.ts$|.tsx/,
             use: "babel-loader",
             exclude: /node_modules/
         },
@@ -43,7 +43,7 @@ module.exports = {
     },
     plugins: [htmlWebpackPlugin],   //插件：自动注入编译打包好的文件
     resolve: {
-        extensions: [".js", ".jsx"]
+        extensions: [".js", ".jsx", '.ts', '.tsx']
     },
     devServer: {
         port: 3001,  //端口号

@@ -1,3 +1,3 @@
-import VerificationCode from './src/index'
+import VerificationCode from './src/index.tsx'
 
 export default VerificationCode
